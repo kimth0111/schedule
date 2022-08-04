@@ -2490,6 +2490,6 @@ function draw(){
 	})
 	subject2.forEach((sub, index)=>{
 		if(list4[number][set2[index].innerText])
-		sub.innerHTML = list4[number][set2[index].innerText]
+		sub.innerHTML = list2[number][set2[index].innerText]
 	})
 }
